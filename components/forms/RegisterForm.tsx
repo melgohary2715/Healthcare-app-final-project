@@ -82,8 +82,8 @@ const RegisterForm = ({ user }: { user: User }) => {
         className="space-y-12 flex-1"
       >
         <section className="space-y-4">
-          <h1 className="header">Welcome 👋</h1>
-          <p className="text-dark-700">Let us know more about yourself</p>
+          {/* <h1 className="header">Welcome</h1> */}
+          {/* <p className="text-dark-700">Let us know more about yourself</p> */}
         </section>
 
         <section className="space-y-6">
@@ -97,8 +97,7 @@ const RegisterForm = ({ user }: { user: User }) => {
           control={form.control}
           name="name"
           label="Full name"
-          placeholder="John Doe"
-          iconSrc="/assets/icons/user.svg"
+          placeholder="Mohamed"
           iconAlt="user"
         />
 
@@ -108,8 +107,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="email"
             label="Email"
-            placeholder="johndoe@gmail.com"
-            iconSrc="/assets/icons/email.svg"
+            placeholder="patient@gmail.com"
             iconAlt="email"
           />
 
@@ -190,11 +188,11 @@ const RegisterForm = ({ user }: { user: User }) => {
           />
         </div>
 
-        <section className="space-y-6">
+        {/* <section className="space-y-6">
           <div className="mb-9 space-y-1">
             <h2 className="sub-header">Medical Information</h2>
           </div>
-        </section>
+        </section> */}
 
         <CustomFormField
           fieldType={FormFieldType.SELECT}
@@ -270,7 +268,7 @@ const RegisterForm = ({ user }: { user: User }) => {
 
         <section className="space-y-6">
           <div className="mb-9 space-y-1">
-            <h2 className="sub-header">Identification and Verification</h2>
+            {/* <h2 className="sub-header">Identification and Verification</h2> */}
           </div>
         </section>
 
@@ -310,7 +308,7 @@ const RegisterForm = ({ user }: { user: User }) => {
 
         <section className="space-y-6">
           <div className="mb-9 space-y-1">
-            <h2 className="sub-header">Consent and Privacy</h2>
+            {/* <h2 className="sub-header">Consent and Privacy</h2> */}
           </div>
         </section>
 
